@@ -1,0 +1,9 @@
+version: 1
+providers:
+  claude:
+    path: .claude
+    skills:
+      git: https://github.com/supa-magic/skillbox/blob/main/skills/git/SKILL.md
+      github: https://github.com/supa-magic/skillbox/blob/main/skills/github/SKILL.md
+    hooks:
+      retro-game-sounds: https://github.com/supa-magic/skillbox/blob/main/skills/sounds/retro-game/install.yml
